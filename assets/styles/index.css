@@ -1,0 +1,13 @@
+/* Reset do CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    text-align: center;
+}
+
+header {
+    background-color: magenta;
+}
