@@ -14,36 +14,46 @@ body {
 }
 
 h1, p {
-    text-align: center;
     font-family:"Bebas Neue";
 }
 
 header {
     background-color: rgb(214, 230, 245);
     padding: 55px;
+    text-align: center;
 }
 
 main {
     background-color: rgb(214, 230, 245);
     flex: 1;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    padding-left: 38px;
-    padding-right: 38px;
-    width: 100%;
+    padding: 48px 38px;
+
+}
+
+about-section {
+    display: block;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;;
+    border-radius: 10px;
 }
 
 
 
 #titulo-about-me {
     font-size: 40px;
-    width: 80%;
-    background-color: white;
+    padding-left: 60px;
+    border-bottom: solid black
 }
 
 .text-about-me {
     font-size: 30px;
-    width: 80%;
-    background-color: white;
+
+
+}
+
+h3 {
+    font-family:"Bebas Neue";
 }
 
