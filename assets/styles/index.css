@@ -1,13 +1,49 @@
 /* Reset do CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 h1, p {
     text-align: center;
+    font-family:"Bebas Neue";
 }
 
 header {
-    background-color: magenta;
+    background-color: rgb(214, 230, 245);
+    padding: 55px;
 }
+
+main {
+    background-color: rgb(214, 230, 245);
+    flex: 1;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 38px;
+    padding-right: 38px;
+    width: 100%;
+}
+
+
+
+#titulo-about-me {
+    font-size: 40px;
+    width: 80%;
+    background-color: white;
+}
+
+.text-about-me {
+    font-size: 30px;
+    width: 80%;
+    background-color: white;
+}
+
