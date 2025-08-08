@@ -18,13 +18,13 @@ h1, p {
 }
 
 header {
-    background-color: rgb(214, 230, 245);
+    background-color: rgb(255, 255, 255);
     padding: 55px;
     text-align: center;
 }
 
 main {
-    background-color: rgb(214, 230, 245);
+    background-color: cornflowerblue;
     flex: 1;
     padding: 48px 38px;
 
@@ -37,23 +37,57 @@ about-section {
     margin: 0 auto;
     padding: 40px;;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 
 
 #titulo-about-me {
-    font-size: 40px;
-    padding-left: 60px;
-    border-bottom: solid black
+    font-size: 25px;
+    border-bottom: solid cornflowerblue;
+    margin-bottom: 7px;
 }
 
 .text-about-me {
-    font-size: 30px;
+    font-size: 20px;
 
 
 }
 
 h3 {
     font-family:"Bebas Neue";
+    font-size: 25px;
 }
 
+hobbies {
+    display: block;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+li {
+    background-color: aliceblue;
+    font-family:"Bebas Neue";
+    padding: 12px;
+    border-left: 4px solid cornflowerblue;
+    font-size: 18px;
+    min-width: 250px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+li:hover {
+    background-color: cornflowerblue;
+    transform: translate(5px);
+    transition: all 0.3s ease;
+    
+}
