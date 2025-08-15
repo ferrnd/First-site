@@ -37,7 +37,7 @@ about-section {
     margin: 0 auto;
     padding: 40px;;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 
@@ -68,15 +68,15 @@ hobbies {
     margin: 0 auto;
     padding: 40px;;
     border-radius: 12px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 li {
     background-color: aliceblue;
-    border-radius: 30px;
+    border-radius: 10px;
     font-family:"Bebas Neue";
     padding: 12px;
-    border-left: 8px solid cornflowerblue;
+    border-left: 6px solid cornflowerblue;
     font-size: 18px;
     min-width: 250px;
 }
@@ -121,12 +121,21 @@ contact a {
     margin: 0 0.5rem;
     border: 2px solid cornflowerblue;
     border-radius: 30px;
-    border-left: 8px solid cornflowerblue;
-    border-right: 8px solid cornflowerblue;
+    border-left: 5px solid cornflowerblue;
+    border-right: 5px solid cornflowerblue;
     background-color: aliceblue;
 }
 contact a:hover {
     transform: translate(5px);
     transition: all 0.6s ease;
     background-color: cornflowerblue;
+}
+footer {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 55px;
+}
+footer p {
+    font-size: 15px;
 }
